@@ -22,7 +22,7 @@
 
 2. ```macscan --rate=Xp 80,8080  -iL log/ip.txt --output-format json --output-file out.json``` — scanning of IP addresses from a file ip.txt in the log directory, followed by writing the working addresses to the out file.json
 
-3. ```./rand-stalk format``` — formats IP addresses from out.json to a human-readable IP template format:PORT followed by writing to a file result.txt
+3. ```./rand-stalk format``` — formats IP addresses from out.json to a human-readable template format IP:PORT followed by writing to a file result.txt
 
 * ```database.txt``` the file is used to store all generated addresses, to avoid repetition during subsequent generation
 
